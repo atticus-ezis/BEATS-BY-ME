@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BEATS BY ME</title>
+  <link rel="stylesheet" href="styles.css">
+  <!-- font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+ 
+</head>
+<body>
+    <div class="background-image"></div>
+    <nav>
+        <!-- menu -->
+        <ul class="menu">
+            <div id="direct" class="social">
+                <li><a href="https://www.youtube.com/@atticusezis1039"><img src="Link/youtube-app-white-icon.webp" alt = "YouTube"> </a></li>
+                <li><a href="https://soundcloud.com/kill3rst33z"><img src="Link/soundcloud-white-icon.png" alt="SoundCloud"></a></li>
+            </div>
+            <div id="share" class="social">
+                <li><a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fgithub.com%2Fatticus-ezis%2FBEATS-BY-ME.git&text="><img src="Link/X_logo_2023_(white).png" alt="x"></a></li>
+                <li><a href="http://pinterest.com/pin/create/button/?url=https%3A%2F%2Fgithub.com%2Fatticus-ezis%2FBEATS-BY-ME.git&media=&description="><img src="Link/pinterest-round-white-icon.webp" alt="Pinterest"></a></li>
+            </div>
+        </ul>
+    </nav>
+
+        <!-- header -->
+    <div id="Header"><h1 id="Title" class = "permanent-marker-regular">THE MIX</h1></div>
+
+    <!-- popup -->
+    <div id="overlay"></div>
+    <div id="popup">
+        <span class="close">&times;</span>
+        <iframe id = "iframePop" width="560" height="315" src="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+
+    <!-- embeded video -->
+    <div id="videoPlayer">
+        <iframe id="iframe" width="702" height="395" src="https://www.youtube.com/embed/jfKfPfyJRdk" title="lofi hip hop radio 📚 - beats to relax/study to" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+
+    <!-- shuffle butt-->
+    <div id="shuffle-button">
+        <img src="heartAnimation/shuffle.png" alt="shuffle-button">
+    </div>
+
+
+      <!-- songlist -->
+        <div class="column-flex">
+        <!-- column left -->
+            <div class="column" id="column-left">
+            <!-- Music items with controllers -->
+                            <!--beat 1-->
+                <div class="beats" id="beat1" data-audio="audio1" data-video="https://www.youtube.com/embed/5pogYAIuXbY?si=9hltv6dWVtRUxrXP">
+                    <h1 class="song-title">Endless Sea</h1>
+                    <audio controls class="audio-player" id="audio1">
+                        <source src="Beats/Endless Sea.mp3" type="audio/mpeg">
+                    </audio>
+                    <div class="sub-header">
+                        <div class="heart">
+                            <img  src="heartAnimation/unliked.png" data-animated-src="heartAnimation/croppedTransHeart.gif" data-liked-src="heartAnimation/liked-Heart.png" data-unlike-src="heartAnimation/unliked.png"alt="heartGif" data-count-id="Endless Sea">
+                            <p class="like-counter"></p>
+                        </div>
+                        <div class="download">
+                            <a href="Beats/Endless Sea.mp3" download>
+                                <img src="heartAnimation/down.png" alt="download-link" data-down-id="Endless Sea Downloads">
+                            </a>
+                            <p class="download-counter"></p>
+                        </div>
+                    </div>
+                </div>
+                            <!-- beat 2 -->
+                <div class="beats" id="beat2" data-audio="audio2" data-video="https://www.youtube.com/embed/AGBj9YecVeU?si=miuDqwSJRZj8PwFY">
+                    <h1 class="song-title">Khaki</h1>
+                    <audio controls class="audio-player" id="audio2">
+                        <source src="Beats/khaki.mp3" type="audio/mpeg">
+                    </audio>
+                    <div class="sub-header">
+                        <div class="heart">
+                            <img src="heartAnimation/unliked.png" data-animated-src="heartAnimation/croppedTransHeart.gif" data-liked-src="heartAnimation/liked-Heart.png" data-unlike-src="heartAnimation/unliked.png"alt="heartGif" data-count-id="Khaki">
+                            <p class="like-counter"></p>
+                        </div>
+                        <div class="download">
+                            <a href="Beats/khaki.mp3" download>
+                                <img src="heartAnimation/down.png" alt="download-link" data-down-id="Khaki Downloads">
+                            </a>
+                            <p class="download-counter"></p>
+                            
+                        </div>
+                    </div>
+                    
+                </div>
+                            <!-- beat 3 -->
+                            <div class="beats" id="beat3" data-audio="audio3" data-video="https://www.youtube.com/embed/d-WXsIpDNIA?si=juhH6BQ6pmdQLbC4">
+                                <h1 class="song-title">Sage Green</h1>
+                                <audio controls class="audio-player" id="audio3">
+                                    <source src="Beats/Sage Green.mp3" type="audio/mpeg">
+                                </audio>
+                                <div class="sub-header">
+                                    <div class="heart">
+                                        <img src="heartAnimation/unliked.png" data-animated-src="heartAnimation/croppedTransHeart.gif" data-liked-src="heartAnimation/liked-Heart.png" data-unlike-src="heartAnimation/unliked.png"alt="heartGif" data-count-id="Sage Green">
+                                        <p class="like-counter"></p>
+                                    </div>
+                                    <div class="download">
+                                        <a href="Beats/Sage Green.mp3" download>
+                                            <img src="heartAnimation/down.png" alt="download-link" data-down-id="Sage Green Downloads">
+                                        </a>
+                                        <p class="download-counter"></p>
+                                        
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            <!-- beat 4 -->
+                            <div class="beats" id="beat4" data-audio="audio4" data-video="https://www.youtube.com/embed/Ldk9Kl3hvjQ?si=Xq8CNYS0vPHuTA-Q">
+                                <h1 class="song-title">Only the Memory</h1>
+                                <audio controls class="audio-player" id="audio4">
+                                    <source src="Beats/Only The Memory.mp3" type="audio/mpeg">
+                                </audio>
+                                <div class="sub-header">
+                                    <div class="heart">
+                                        <img src="heartAnimation/unliked.png" data-animated-src="heartAnimation/croppedTransHeart.gif" data-liked-src="heartAnimation/liked-Heart.png" data-unlike-src="heartAnimation/unliked.png"alt="heartGif" data-count-id="Only The Memory">
+                                        <p class="like-counter"></p>
+                                    </div>
+                                    <div class="download">
+                                        <a href="Beats/Only The Memory.mp3" download>
+                                            <img src="heartAnimation/down.png" alt="download-link" data-down-id="Only The Memory Downloads">
+                                        </a>
+                                        <p class="download-counter"></p>
+                                    </div>
+                                </div>
+                                
+                            </div>
+        <!-- end colum left-->
+            </div>
+        <!-- colum right -->
+            <div class="column" id="column-right">
+            <!-- Music items with controllers -->
+                        <!--R-beat 1-->
+                        <div class="beats" id="R-beat1" data-audio="R-audio1" data-video="https://www.youtube.com/embed/OBYtSVJy1hk?si=WXunnGRhZuDvz92F">
+                            <h1 class="song-title">Shelter</h1>
+                            <audio controls class="audio-player" id="R-audio1">
+                                <source src="Beats/shelter.mp3" type="audio/mpeg">
+                            </audio>
+                            <div class="sub-header">
+                                <div class="heart">
+                                    <img  src="heartAnimation/unliked.png" data-animated-src="heartAnimation/croppedTransHeart.gif" data-liked-src="heartAnimation/liked-Heart.png" data-unlike-src="heartAnimation/unliked.png"alt="heartGif" data-count-id="Shelter">
+                                    <p class="like-counter"></p>
+                                </div>
+                                <div class="download">
+                                    <a href="Beats/shelter.mp3" download>
+                                        <img src="heartAnimation/down.png" alt="download-link" data-down-id="Shelter Downloads">
+                                    </a>
+                                    <p class="download-counter"></p>
+                                    
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <!-- R-beat 2-->
+                        <div class="beats" id="R-beat2" data-audio="R-audio2" data-video="https://www.youtube.com/embed/-rTfcd-_lLs?si=rm9yj-IsoIz8Ebio">
+                        <h1 class="song-title">You Got a Name?</h1>
+                        <audio controls class="audio-player" id="R-audio2">
+                            <source src="Beats/you got a name.mp3" type="audio/mpeg">
+                        </audio>
+                        <div class="sub-header">
+                            <div class="heart">
+                                <img  src="heartAnimation/unliked.png" data-animated-src="heartAnimation/croppedTransHeart.gif" data-liked-src="heartAnimation/liked-Heart.png" data-unlike-src="heartAnimation/unliked.png"alt="heartGif" data-count-id="you got a name?">
+                                <p class="like-counter"></p>
+                            </div>
+                            <div class="download">
+                                <a href="Beats/you got a name.mp3" download>
+                                    <img src="heartAnimation/down.png" alt="download-link" data-down-id="you got a name? Downloads">
+                                </a>
+                                <p class="download-counter"></p>
+                                
+                            </div>
+                        </div>
+                        
+                    </div>
+                        <!--R-beat 3-->
+                        <div class="beats" id="R-beat3" data-audio="R-audio3" data-video="https://www.youtube.com/embed/b1i-3vU-YVE?si=4E3-cy-0b6Pn1ICR">
+                            <h1 class="song-title">Night Drive</h1>
+                            <audio controls class="audio-player" id="R-audio3">
+                                <source src="Beats/Night Drive.mp3" type="audio/mpeg">
+                            </audio>
+                            <div class="sub-header">
+                                <div class="heart">
+                                    <img  src="heartAnimation/unliked.png" data-animated-src="heartAnimation/croppedTransHeart.gif" data-liked-src="heartAnimation/liked-Heart.png" data-unlike-src="heartAnimation/unliked.png"alt="heartGif" data-count-id="Night Drive">
+                                    <p class="like-counter"></p>
+                                </div>
+                                <div class="download">
+                                    <a href="Beats/Night Drive.mp3" download>
+                                        <img src="heartAnimation/down.png" alt="download-link" data-down-id="Night Drive Downloads">
+                                    </a>
+                                    <p class="download-counter"></p>
+                                    
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <!--R-beat 4-->
+                        <div class="beats" id="R-beat4" data-audio="R-audio4" data-video="https://www.youtube.com/embed/vU2dv4ng4fA?si=gUO6cJ08EvDA54WJ">
+                            <h1 class="song-title">Serbian Swing</h1>
+                            <audio controls class="audio-player" id="R-audio4">
+                                <source src="Beats/serb swing.mp3" type="audio/mpeg">
+                            </audio>
+                            <div class="sub-header">
+                                <div class="heart">
+                                    <img  src="heartAnimation/unliked.png" data-animated-src="heartAnimation/croppedTransHeart.gif" data-liked-src="heartAnimation/liked-Heart.png" data-unlike-src="heartAnimation/unliked.png"alt="heartGif" data-count-id="Serb Swing">
+                                    <p class="like-counter"></p>
+                                </div>
+                                <div class="download">
+                                    <a href="Beats/serb swing.mp3" download>
+                                        <img src="heartAnimation/down.png" alt="download-link" data-down-id="Serb Swing Downloads">
+                                    </a>
+                                    <p class="download-counter"></p>
+                                    
+                                </div>
+                            </div>
+                            
+                        </div>
+                        
+                </div>
+
+        </div>
+
+        <script type="module">
+
+            // CONNECT TO FIREBASE
+            import { initializeApp } from "https://www.gstatic.com/firebasejs/9.15.0/firebase-app.js";
+            import { getDatabase, get, set, ref} from "https://www.gstatic.com/firebasejs/9.15.0/firebase-database.js";
+            const firebaseConfig = {
+              apiKey: "AIzaSyCIN5zMunWA6AyI9oNeIQgi3-hIdKiNO-o",
+              authDomain: "beats-by-me-e44ce.firebaseapp.com",
+              projectId: "beats-by-me-e44ce",
+              storageBucket: "beats-by-me-e44ce.appspot.com",
+              messagingSenderId: "905694976197",
+              appId: "1:905694976197:web:06ee079c36d6745187f8ac",
+              databaseURL: "https://beats-by-me-e44ce-default-rtdb.firebaseio.com/"
+            };
+            const app = initializeApp(firebaseConfig);
+            const database = getDatabase(app);
+
+            // Display value from database 
+            function displayCount(countRef, counter) {
+                get(countRef).then((snapshot) => {
+                    if (snapshot.exists()) {
+                        counter.textContent = snapshot.val();
+                      } else {
+                        console.log('no data for', countRef.toString());
+                        counter.textContent = 0;
+                    }
+                }).catch((error) => {
+                    console.error("Error printCount function:", error);
+                }); 
+            }
+            // Update and display count
+            function updateCount(countRef, counter, increment) {
+                get(countRef).then((snapshot) =>  {
+                    let count = snapshot.exists() ? snapshot.val() : 0;
+                    count += increment;
+                    set(countRef, count);
+                    counter.textContent = count;
+                }).catch((error) => {
+                    console.error("Error updateCount function", error)
+                })
+            }
+            // liked count
+            const gifs = document.querySelectorAll('.heart img');
+                gifs.forEach(function(gif) {
+                    // reference <p> under gif to display count as 'counter'
+                    const counter = gif.nextElementSibling;
+                    // ID for each gif clicked
+                    const countId = gif.dataset.countId;
+                    // reference each ID in database
+                    const countRef = ref(database, 'likes/' + countId);
+                    // display database's current count of each gif    
+                    displayCount(countRef, counter);
+                    // click action
+                    let clicked = false;
+
+                    gif.addEventListener('click', function(){
+                        if (!clicked) {  
+                            //update count +1
+                            updateCount(countRef, counter, 1);
+                            // prevent more than 1 like per click
+                            clicked = true;
+                            } else {
+                            //update count -1
+                            updateCount(countRef, counter, -1);
+                            //prevent more than 1 unlike
+                            clicked = false;
+                            };
+                        });
+                });
+            
+            // download count
+            const downloads = document.querySelectorAll('.download img');
+            downloads.forEach(function(download){
+                const counter = download.closest('.download').querySelector('.download-counter');
+                const countId = download.dataset.downId;
+                const countRef = ref(database, 'downs/' + countId);
+                displayCount(countRef, counter);
+                download.addEventListener('click', function(){
+                    updateCount(countRef, counter, 1);
+                })
+            })
+            
+        </script>
+        <script src="script.js"></script>
+</body>
+</html>

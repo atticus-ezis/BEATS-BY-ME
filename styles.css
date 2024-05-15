@@ -1,0 +1,191 @@
+.permanent-marker-regular {
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.background-image {
+    background-size: cover;
+    background-position: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; 
+}
+
+.menu {
+    list-style-type: none;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu li {
+    display: inline;
+}
+
+.menu #direct img {
+    display: inline-block; 
+    width: 75px;
+    height: auto; 
+    padding: 20px;
+    margin-left: 20px;
+}
+
+.menu #share img {
+    display: inline-block;
+    width: 75px;
+    height: auto;
+    padding: 20px;
+    margin-right: 40px;
+    margin-bottom: 5px;
+
+}
+
+#Header {
+    text-align: center;
+    margin-top: 100px;   
+}
+
+#Title {
+    font-size: 56px;
+    color: aliceblue;
+    text-shadow: 
+    -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -4px 1px 0 #000,
+    1px 1px 0 #000; /* Black outline */
+}
+
+#shuffle-button {
+    margin-left: 8%;
+}
+
+#shuffle-button img {
+    height: auto; 
+    width: 75px;
+    margin: 1px;
+}
+
+#shuff {
+    font-family: "Permanent Marker", cursive;
+}
+
+.song-title {
+    font-family: "Permanent Marker", cursive;
+    font-weight: 200;
+    font-style: normal;
+    margin: 2.5px;
+    color: aliceblue;
+    font-size: 24px;
+    font-style: italic;
+    text-shadow: 
+    -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -2px 1px 0 #000,
+    1px 1px 0 #000; /* Black outline */
+}
+
+#videoPlayer {
+    justify-content: center;
+    display: flex;
+}
+
+.sub-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.heart {
+    display: flex;
+}
+
+.download {
+    display: flex;
+}
+
+.heart img {
+    width: 35px;
+    height: auto;
+    background-color: aliceblue;
+    margin: 5px;
+    border-radius: 7px;
+}
+
+.sub-header p {
+    margin-bottom: 0px;
+    font-size: 18px;
+    margin-left: 5px;
+}
+
+.download img {
+    width: 35px;
+    height: auto;
+    margin: 5px;
+    border-radius: 7px;
+}
+
+.column-flex {
+    display: flex;
+    justify-content: center;
+   
+}
+
+.column {
+    width: 40%;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px; 
+    margin: 20px;
+    margin-bottom: 20px;
+}
+
+.beats {
+    padding: 15px;
+}
+
+audio {
+    display:block;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
+    z-index: 1000; /* Ensure it's above everything else */
+  }
+  
+#popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid #ccc;
+    z-index: 1001; /* Ensure it's above the overlay */
+  }
+  
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+  }
+
+#downloadLink {
+    display: flex;
+    justify-content: center;
+  }
+
+.clickable {
+    cursor: pointer;
+  }
+  
